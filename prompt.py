@@ -1,20 +1,4 @@
-import numpy as np
-import pandas as pd
-from openai import OpenAI
-from langchain.chat_models import ChatOpenAI
-from langchain.prompts import ChatPromptTemplate
-import streamlit as st
-from dotenv import load_dotenv
-import pickle
-from PyPDF2 import PdfReader
-# from streamlit_extras.add_vertical_space import add_vertical_space
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import FAISS
-# from langchain.llms import OpenAI
-from langchain.chains.question_answering import load_qa_chain
-from langchain.callbacks import get_openai_callback
-import os
+
 
 instruction_existing= """
             Role: Product designer/developer at Kenvue, focusing on Neutrogena Hydro Boost Face Moisturizer.

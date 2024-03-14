@@ -9,7 +9,6 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import ChatPromptTemplate
 from  css import render_navbar
 from prompt import instruction_existing,output_format,template_string
-from audio_recorder_streamlit import audio_recorder
 st.set_page_config(
         page_title="Sigmoid Style",
         layout="wide",
