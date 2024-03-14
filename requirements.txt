@@ -12,3 +12,4 @@ tabulate
 pandasai
 statsmodels
 polars
+streamlit_option_menu
