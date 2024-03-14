@@ -16,7 +16,7 @@ st.set_page_config(
 
 render_navbar()
 
-openai_api_key = "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"
+openai_api_key = st.secrets["openai_key"]
 client = OpenAI(api_key=openai_api_key)
 
 llm_model = "gpt-4"
